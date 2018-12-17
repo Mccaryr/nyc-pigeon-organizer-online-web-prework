@@ -4,7 +4,7 @@ data.each do |attribute, descriptions|
   descriptions.each do |description, pigeons|
     pigeons.each do |pigeon|
       new_hash[pigeon] ||= {}
-      new_hash[pigeon][attribute] ||=[]
+      new_hash[pigeon][attribute] ||= []
       new_hash[pigeon][attribute] << option.to_s
     end
   end
