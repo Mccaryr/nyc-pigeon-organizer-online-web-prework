@@ -9,5 +9,5 @@ data.each do |attribute, descriptions|
     end
   end
 end
-new_hash
+return new_hash
 end
